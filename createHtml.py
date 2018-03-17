@@ -102,7 +102,7 @@ html_body = """<!DOCTYPE html>
 
             function playRadio(streaming, radioName) {{
                 // Update the page title with the radio name
-                document.title = radioName + " | Radios";
+                document.title = radioName + " | Radios Comunitarias";
 
                 // Play the radio
                 var audio = document.getElementById("streamingControls");
