@@ -54,6 +54,18 @@ html_body = """<!DOCTYPE html>
             </audio>
         </div>
         
+<div class="container">
+<div class="row">
+<div class="col-xs-1 col-sm-1 col-md-2">
+<div class="box">
+<center>
+<img id="Ojo.de.Barro" src="./Ojo.de.Barro.tbn" class="img-responsive box-img" alt="radio Ojo.de.Barro" onclick="playRadio('http://server11.veemesoft.com.ar:9752/;', 'Ojo.de.Barro')" />
+</center>
+</div><!--/box -->
+</div><!--/col-sm-3 -->
+</div><!--/row -->
+</div><!--/container -->
+
         <div class="container">
         {0}
         </div><!--/container -->
